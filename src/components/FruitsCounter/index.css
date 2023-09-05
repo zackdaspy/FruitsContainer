@@ -1,0 +1,46 @@
+/* Write your CSS here */
+/* src/components/FruitsCounter/index.css */
+.fruits-counter-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.fruit-image {
+  display: flex;
+  justify-content: center;
+}
+
+.mango-img,
+.banana-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+}
+
+.fruit-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.count-container {
+  margin: 20px 0;
+}
+
+.count {
+  font-size: 18px;
+  color: #000000;
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .mango-img,
+  .banana-img {
+    width: 60px;
+    height: 60px;
+  }
+}
